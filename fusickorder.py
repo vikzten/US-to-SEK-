@@ -1,0 +1,10 @@
+#klart
+us=input(' pris i usd: ')
+intus=int(us)
+sv=(intus*9.8)
+tull=(sv*0.06)
+moms=(sv*0.25)
+pris=(tull+moms+sv)
+intpris=int(pris)
+strpris=str(intpris)
+print(strpris+' SEK')
